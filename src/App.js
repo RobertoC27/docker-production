@@ -12,6 +12,7 @@ function App() {
         Wenas!
         </p>
         <div>probando</div>
+        <div>componiendo</div>
       </header>
     </div>
   );

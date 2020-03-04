@@ -13,3 +13,9 @@ test('renders another p element', () => {
   const linkElement = getByText(/probando/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('renders another yet p element', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/componiendo/i);
+  expect(linkElement).toBeInTheDocument();
+});
